@@ -1,3 +1,5 @@
+/* Global */
+
 section {
     background-color: #8D3245;
     height: 982px;
@@ -8,36 +10,9 @@ section {
     
 }
 
-
-.section-home {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-
-.menu-container {
-    position: fixed;
-    top: 50px;
-    left: 50px;
-}
-
-
-.footer-section {
-    height: 200px;
-    background-color: #5C202D;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;   
-}
-
-
 body {
     margin: 0px;
 }
-
 
 ul {
     list-style-type: none;
@@ -61,14 +36,6 @@ li:hover {
     text-underline-offset: 8px;
 }
 
-
-.hero-phrase {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 230px;
-}
-
-
 h2 {
     color: #FFEFE0;
     margin-bottom: 5px;
@@ -78,6 +45,29 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Section home */
+
+.section-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.menu-container {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+
+.hero-phrase {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 230px;
+}
+
 
 .just {
     color: #F0BB75;
@@ -85,18 +75,6 @@ h2 {
     margin-left: 20px;
     letter-spacing: 0.11em;
     font-weight: bold
-}
-
-.icons {
-    margin-left: 50px;
-}
-
-p {
-    color: #FFEFE0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 44px;
 }
 
 /* My skills section */
@@ -249,4 +227,27 @@ p {
     color: #D07B8D;
     background-color: #FFEFE0;
     border: 1px solid #D07B8D;
+}
+
+/* Section footer */
+
+.footer-section {
+    height: 200px;
+    background-color: #5C202D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.icons {
+    margin-left: 50px;
+}
+
+.footer-section p {
+    color: #FFEFE0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
 }

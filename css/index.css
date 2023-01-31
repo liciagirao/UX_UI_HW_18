@@ -156,9 +156,79 @@ p {
     color: #FFFFFF;
 }
 
-.button-container {
+/* My projects section */
+
+.section-my-projects {
+    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+    background: #D07B8D;
+}
+
+.section-my-projects h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.11em;
+    color: #8D3245; 
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 500px;
+    height: 250px;
+    background-color: transparent;
+    border: 1px solid #FFEFE0;
+    border-radius: 50px;
+    background: #FFEFE0;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+.project-card:hover {
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3);   
+}
+
+.project-card p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: rgba(92, 32, 45, 0.5);
+    margin: 0px;
+}
+
+.project-card h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: #8D3245;
+    margin: 0px; 
+}
+
+.project-card h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F0BB75;
+    margin: 0px;
+    margin-top: 8px;
+}
+
+.download-button-container {
     display: flex;
     justify-content: flex-end;
+    margin-top: 48px;
 }
 
 .download-cv-button {
@@ -176,7 +246,7 @@ p {
 }
 
 .download-cv-button:hover {
-    color: #BC425C;
+    color: #D07B8D;
     background-color: #FFEFE0;
-    border: 1px solid #BC425C;
+    border: 1px solid #D07B8D;
 }

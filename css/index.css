@@ -98,3 +98,59 @@ p {
     font-size: 16px;
     line-height: 44px;
 }
+
+/* My skills section */
+
+.section-my-skills {
+    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-my-skills h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.11em;
+    color: #F0BB75; 
+}
+
+.skill-section {
+    margin-bottom: 44px;
+}
+
+.section-my-skills h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: #FFEFE0;
+}
+
+.skills-group {
+    display: flex;
+}
+
+.skill-item {
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-image {
+    filter: grayscale(100%);
+}
+
+.skill-image:hover {
+    filter: grayscale(0%);
+}
+
+.section-my-skills small {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}

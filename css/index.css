@@ -2,7 +2,7 @@
 
 section {
     background-color: #8D3245;
-    height: 982px;
+    min-height: 982px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
